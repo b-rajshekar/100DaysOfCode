@@ -1,2 +1,0 @@
-name = "Raj"
-# print(name)
