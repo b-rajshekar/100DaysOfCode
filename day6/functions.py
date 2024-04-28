@@ -10,7 +10,7 @@
 
 
 def my_function():
-    print("Hello")
-    print("Bye")
+    print("Hola")
+    print("Adios")
     
 my_function()
