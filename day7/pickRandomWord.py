@@ -4,13 +4,16 @@ chosen_word = random.choice(word_list)
 
 print(f"Pssst, the solution is {chosen_word}.")
 
+display = []
+word_length = len(chosen_word)
+for _ in range(word_length):
+    display += "_"
+print(display)
 
-#Ask the user to guess a letter and assign their answer to a variable called guress. Make guess lowercase.
 guess = input("Guess a letter: ").lower()
-
-#Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-for letter in chosen_word:
+for position in range(word_length):
+    letter = chosen_word[position]
     if letter == guess:
-        print("Right")
-    else:
-        print("Wrong")
+        display[position] =  letter
+        
+print(display)
