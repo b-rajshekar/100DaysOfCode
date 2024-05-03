@@ -4,4 +4,6 @@ coding_dictionary = {
     "Loop": "The action of doing something over and over again.",
 }
 
+#Retrieving items from dictionary.
 print(coding_dictionary["Bug"])
+
