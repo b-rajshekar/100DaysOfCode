@@ -7,3 +7,6 @@ coding_dictionary = {
 #Retrieving items from dictionary.
 print(coding_dictionary["Bug"])
 
+#Adding new items to dictionary.
+coding_dictionary["spanishWords"] = "Hola, Como estas, Mucho Gusto, Adios."
+print(coding_dictionary)
