@@ -1,5 +1,4 @@
-# print function
-# print("Hello World")
+print("Hello World \nHello World") #will print in two seperate lines
 
 # input function
 # input("Hola "+ input("What is your name: "))
@@ -8,11 +7,11 @@
 # name = input("What is your name? ")
 # print(name)
 
-name = "Jack"
-print(name)
+# name = "Jack"
+# print(name)
 
-name = "Raj"
-print(name)
+# name = "Raj"
+# print(name)
 
 name = input("What is your name? ")
 length = len(name)
