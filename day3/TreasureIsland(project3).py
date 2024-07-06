@@ -25,8 +25,12 @@ print('''                    ___
                |       |#######|
                |       |#######|
  ''')
+
+# The below two lines will print the welcome message
 print("Welcome to Tresure Island.")
 print("Your mission is to find the treasure.")
+
+# Takes input from the user and stores it in the choice1 variable, and this  .lower() will ensure that whatever like capital or small words typed by the user are taken input as lower case.
 choice1 = input('"You\'re at a crossroad, where do youwant to go? Type "left" or "right".').lower()
 
 if choice1 == "left":
